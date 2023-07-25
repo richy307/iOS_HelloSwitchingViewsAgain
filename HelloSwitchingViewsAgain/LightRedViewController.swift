@@ -15,11 +15,14 @@ class LightRedViewController: UIViewController {
     }
     
     @IBAction func gotoView3(_ sender: UIButton) {
+        
+        // get Storyboard
         let lightGreen = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "lightGreen")
         
+        // segue show
         present(lightGreen, animated: true, completion: nil)
         
-//        self.navigationController?.pushViewController(lightGreen, animated: true) // from right to left
+        // self.navigationController?.pushViewController(lightGreen, animated: true) // from right to left
     }
     
     override func viewDidLoad() {
