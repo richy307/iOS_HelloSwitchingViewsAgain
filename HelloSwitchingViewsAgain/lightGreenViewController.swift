@@ -11,8 +11,9 @@ class lightGreenViewController: UIViewController {
     
 
     @IBAction func backtoView2(_ sender: UIButton) {
-//        navigationController?.popViewController(animated: true) // 回上一頁 // 對應 .pushViewController()
-//        navigationController?.popToRootViewController(animated: true) // 回到第一個畫面（回首頁）
+        
+        // navigationController?.popViewController(animated: true) // 回上一頁 // 對應 .pushViewController()
+        // navigationController?.popToRootViewController(animated: true) // 回到第一個畫面（回首頁）
         dismiss(animated: true, completion: nil) // 回上一頁 // 對應 present()
     }
     

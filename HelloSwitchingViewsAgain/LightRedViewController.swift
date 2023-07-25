@@ -10,8 +10,11 @@ import UIKit
 class LightRedViewController: UIViewController {
 
     @IBAction func gotoView1(_ sender: UIButton) {
-        navigationController?.popViewController(animated: true) // 回上一頁 // 對應 .pushViewController()
-//        dismiss(animated: true, completion: nil) // 回上一頁 // 對應 present()
+        
+        // 回上一頁 // 對應 .pushViewController()
+        navigationController?.popViewController(animated: true)
+        
+        // dismiss(animated: true, completion: nil) // 回上一頁 // 對應 present()
     }
     
     @IBAction func gotoView3(_ sender: UIButton) {
